@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    AndrIos: solo icone iOS 26 Liquid Glass (da iOS Icon Pack di SysAdminDoc).
+    appfilter.xml - Maps Android app components to icon drawables.
+
+    NAMING CONVENTION:
+    ios{version}_{app_name}     e.g. ios18_safari, ios14_messages
+    ios26_lg_{app_name}         e.g. ios26_lg_safari (Liquid Glass)
+-->
+<resources>
+
+    <!-- ==================== PHONE / DIALER ==================== -->
+    <item component="ComponentInfo{com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity}" drawable="ios26_lg_phone" />
+    <item component="ComponentInfo{com.android.dialer/com.android.dialer.DialtactsActivity}" drawable="ios26_lg_phone" />
+    <item component="ComponentInfo{com.samsung.android.dialer/com.samsung.android.dialer.DialtactsActivity}" drawable="ios26_lg_phone" />
+    <item component="ComponentInfo{com.samsung.android.app.contacts/com.samsung.android.dialer.DialtactsActivity}" drawable="ios26_lg_phone" />
+    <item component="ComponentInfo{com.asus.contacts/com.android.dialer.DialtactsActivity}" drawable="ios26_lg_phone" />
+    <item component="ComponentInfo{com.huawei.contacts/com.huawei.contacts.Launcher}" drawable="ios26_lg_phone" />
+    <item component="ComponentInfo{com.oneplus.dialer/com.oneplus.dialer.DialtactsActivity}" drawable="ios26_lg_phone" />
+
+    <!-- ==================== MESSAGES / SMS ==================== -->
+    <item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity}" drawable="ios26_lg_messages" />
+    <item component="ComponentInfo{com.samsung.android.messaging/com.samsung.android.messaging.ui.view.setting.MainSettingActivity}" drawable="ios26_lg_messages" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationList}" drawable="ios26_lg_messages" />
+    <item component="ComponentInfo{com.concentriclivers.mms.com.android.mms/com.android.mms.ui.ConversationList}" drawable="ios26_lg_messages" />
+
+    <!-- ==================== CONTACTS ==================== -->
+    <item component="ComponentInfo{com.google.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="ios26_lg_phone" />
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="ios26_lg_phone" />
+    <item component="ComponentInfo{com.samsung.android.contacts/com.samsung.android.contacts.ContactsActivity}" drawable="ios26_lg_phone" />
+
+    <!-- ==================== BROWSERS ==================== -->
+    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="ios26_lg_chrome" />
+    <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.fenix.HomeActivity}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{org.mozilla.firefox_beta/org.mozilla.fenix.HomeActivity}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{org.mozilla.fenix/org.mozilla.fenix.HomeActivity}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{com.brave.browser/com.brave.browser.BraveActivity}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{com.opera.browser/com.opera.android.BrowserActivity}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{com.opera.mini.native/com.opera.mini.android.Browser}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{com.samsung.android.app.sbrowser/com.sec.android.app.sbrowser.SBrowserMainActivity}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{com.vivaldi.browser/com.vivaldi.browser.VivaldiChromiumActivity}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.Launcher}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{com.microsoft.emmx/com.microsoft.ruby.Main}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{com.UCMobile.intl/com.UCMobile.main.UCMobile}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{org.chromium.chrome/com.google.android.apps.chrome.Main}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{com.kiwibrowser.browser/com.aspect.browser.BrowserActivity}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{io.github.nickcfml.nickcf_nicegram_browser/io.nicegram.nickcf.nicegram_browser.BrowserActivity}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{mark.via.gp/mark.via.Shell}" drawable="ios26_lg_safari" />
+
+    <!-- ==================== CAMERA ==================== -->
+    <item component="ComponentInfo{com.google.android.GoogleCamera/com.android.camera.CameraLauncher}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{com.samsung.android.camera/com.sec.android.app.camera.Camera}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{com.android.camera2/com.android.camera.CameraLauncher}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{com.android.camera/com.android.camera.Camera}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{com.huawei.camera/com.huawei.camera}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{com.oneplus.camera/com.oneplus.camera.OPCameraActivity}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{com.motorola.camera2/com.motorola.camera.Camera}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{com.sonyericsson.android.camera/com.sonyericsson.android.camera.CameraActivity}" drawable="ios26_lg_camera" />
+
+    <!-- ==================== PHOTOS / GALLERY ==================== -->
+    <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="ios26_lg_google_photos" />
+    <item component="ComponentInfo{com.samsung.android.gallery/com.samsung.android.gallery.app.activity.GalleryActivity}" drawable="ios26_lg_photos" />
+    <item component="ComponentInfo{com.miui.gallery/com.miui.gallery.activity.HomePageActivity}" drawable="ios26_lg_photos" />
+    <item component="ComponentInfo{com.oneplus.gallery/com.oneplus.gallery.GalleryActivity}" drawable="ios26_lg_photos" />
+    <item component="ComponentInfo{com.huawei.photos/com.huawei.photos.LauncherEntry}" drawable="ios26_lg_photos" />
+
+    <!-- ==================== SETTINGS ==================== -->
+    <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.samsung.android.app.settings/com.android.settings.Settings}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.homepage.SettingsHomepageActivity}" drawable="ios26_lg_settings" />
+
+    <!-- ==================== EMAIL ==================== -->
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="ios26_lg_gmail" />
+    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{com.samsung.android.email.provider/com.samsung.android.email.composer.activity.MessageList}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{com.yahoo.mobile.client.android.mail/com.yahoo.mail.ui.YahooMainTabActivity}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{me.proton.android.mail/ch.protonmail.android.mailbox.presentation.MailboxActivity}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{org.thunderbird.android/net.thunderbird.android.ui.launcher.LauncherActivity}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.MessageList}" drawable="ios26_lg_mail" />
+
+    <!-- ==================== MAPS / NAVIGATION ==================== -->
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="ios26_lg_google_maps" />
+    <item component="ComponentInfo{com.waze/com.waze.FreeMapAppActivity}" drawable="ios26_lg_maps" />
+    <item component="ComponentInfo{com.here.app.maps/com.here.app.maps.appwidget.AppWidgetMainActivity}" drawable="ios26_lg_maps" />
+    <item component="ComponentInfo{com.mapbox.mapboxgl.testapp/com.mapbox.mapboxgl.testapp.activity.FeatureOverviewActivity}" drawable="ios26_lg_maps" />
+
+    <!-- ==================== CLOCK / ALARM ==================== -->
+    <item component="ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}" drawable="ios26_lg_clock" />
+    <item component="ComponentInfo{com.samsung.android.app.clockpack/com.sec.android.app.clockpackage.ClockPackage}" drawable="ios26_lg_clock" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}" drawable="ios26_lg_clock" />
+    <item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.ClockPackage}" drawable="ios26_lg_clock" />
+    <item component="ComponentInfo{com.asus.deskclock/com.asus.deskclock.DeskClock}" drawable="ios26_lg_clock" />
+
+    <!-- ==================== WEATHER ==================== -->
+    <item component="ComponentInfo{com.google.android.apps.weather/com.google.android.apps.weather.WeatherActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{com.samsung.android.weather/com.samsung.android.weather.WeatherMainActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{com.accuweather.android/com.accuweather.app.MainTabActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{com.weather.Weather/com.weather.Weather.Activities.SplashActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{org.climasense/org.climasense.main.MainActivity}" drawable="ios26_lg_weather" />
+
+    <!-- ==================== NOTES ==================== -->
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="ios26_lg_google_keep" />
+    <item component="ComponentInfo{com.samsung.android.app.notes/com.samsung.android.app.notes.memolist.MemoListActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.microsoft.office.onenote/com.microsoft.office.onenote.MainActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{md.obsidian/md.obsidian.MainActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.automattic.simplenote/com.automattic.simplenote.NotesActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{org.standardnotes/com.standardnotes.MainActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.noodleofdeath.noteful/com.noodleofdeath.noteful.MainActivity}" drawable="ios26_lg_notes" />
+
+    <!-- ==================== CALENDAR ==================== -->
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="ios26_lg_google_calendar" />
+    <item component="ComponentInfo{com.samsung.android.calendar/com.samsung.android.calendar.AllInOneActivity}" drawable="ios26_lg_calendar" />
+    <item component="ComponentInfo{ws.xsoh.etar/ws.xsoh.etar.CalendarActivity}" drawable="ios26_lg_calendar" />
+
+    <!-- ==================== APP STORE ==================== -->
+    <item component="ComponentInfo{com.android.vending/com.google.android.finsky.activities.MainActivity}" drawable="ios26_lg_appstore" />
+    <item component="ComponentInfo{com.aurora.store/com.aurora.store.view.ui.splash.SplashActivity}" drawable="ios26_lg_appstore" />
+    <item component="ComponentInfo{org.fdroid.fdroid/org.fdroid.fdroid.views.main.MainActivity}" drawable="ios26_lg_appstore" />
+    <item component="ComponentInfo{com.amazon.venezia/com.amazon.venezia.EnterpriseMainActivity}" drawable="ios26_lg_appstore" />
+    <item component="ComponentInfo{com.samsung.android.voc/com.samsung.android.voc.GalaxyStoreMainActivity}" drawable="ios26_lg_appstore" />
+
+    <!-- ==================== VIDEO CALLS ==================== -->
+    <item component="ComponentInfo{com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivity}" drawable="ios26_lg_google_meet" />
+    <item component="ComponentInfo{us.zoom.videomeetings/us.zoom.videomeetings.ZoomActivity}" drawable="ios26_lg_zoom" />
+    <item component="ComponentInfo{com.microsoft.teams/com.microsoft.skype.teams.Launcher}" drawable="ios26_lg_facetime" />
+    <item component="ComponentInfo{com.skype.raider/com.skype.raider.Main}" drawable="ios26_lg_facetime" />
+    <item component="ComponentInfo{com.google.android.apps.meetings/com.google.android.apps.meetings.launch.MeetLaunchActivity}" drawable="ios26_lg_google_meet" />
+
+    <!-- ==================== MUSIC / AUDIO ==================== -->
+    <item component="ComponentInfo{com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="ios26_lg_spotify" />
+    <item component="ComponentInfo{com.apple.android.music/com.apple.android.music.AppleMusicActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.amazon.mp3/com.amazon.mp3.MainActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{deezer.android.app/deezer.android.app.activity.LaunchActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.soundcloud.android/com.soundcloud.android.main.LauncherActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.pandora.android/com.pandora.android.Main}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.tidal.wave/com.tidal.wave.MainActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.maxmpz.audioplayer/com.maxmpz.audioplayer.StartupActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{code.name.monkey.retromusic/code.name.monkey.retromusic.activities.MainActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.samsung.android.app.music/com.samsung.android.app.music.activity.MusicMainActivity}" drawable="ios26_lg_music" />
+
+    <!-- ==================== WALLET / PAY ==================== -->
+    <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.android.apps.walletnfcrel.WalletActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.samsung.android.spay/com.samsung.android.spay.ui.app.SamsungPayMainActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.activity.SplashActivity}" drawable="ios26_lg_paypal" />
+    <item component="ComponentInfo{com.venmo/com.venmo.controller.InitialActivity}" drawable="ios26_lg_venmo" />
+    <item component="ComponentInfo{com.squareup.cash/com.squareup.cash.ui.MainActivity}" drawable="ios26_lg_wallet" />
+
+    <!-- ==================== FILES ==================== -->
+    <item component="ComponentInfo{com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.home.HomeActivity}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.samsung.android.app.myfiles/com.samsung.android.app.myfiles.MyFilesActivity}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.mi.android.globalFileexplorer/com.android.fileexplorer.FileExplorerTabActivity}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.ghisler.android.TotalCommander/com.ghisler.android.TotalCommander.TotalCommanderActivity}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.lonelycatgames.Xplore/com.lonelycatgames.Xplore.Xplore}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{me.zhanghai.android.files/me.zhanghai.android.files.filelist.FileListActivity}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.amaze.filemanager/com.amaze.filemanager.ui.activities.MainActivity}" drawable="ios26_lg_files" />
+
+    <!-- ==================== CALCULATOR ==================== -->
+    <item component="ComponentInfo{com.google.android.calculator/com.android.calculator2.Calculator}" drawable="ios26_lg_calculator" />
+    <item component="ComponentInfo{com.samsung.android.calculator/com.samsung.android.calculator.Calculator}" drawable="ios26_lg_calculator" />
+    <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator}" drawable="ios26_lg_calculator" />
+    <item component="ComponentInfo{com.miui.calculator/com.miui.calculator.cal.CalculatorActivity}" drawable="ios26_lg_calculator" />
+
+    <!-- ==================== HEALTH / FITNESS ==================== -->
+    <item component="ComponentInfo{com.google.android.apps.fitness/com.google.android.apps.fitness.FitMainActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.samsung.android.shealth/com.samsung.android.shealth.app.home.HomeActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.strava/com.strava.ui.splash.SplashActivity}" drawable="ios26_lg_strava" />
+    <item component="ComponentInfo{com.myfitnesspal.android/com.myfitnesspal.android.ui.app.SplashActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.fitbit.FitbitMobile/com.fitbit.FitbitMobile.ui.splash.SplashScreenActivity}" drawable="ios26_lg_health" />
+
+    <!-- ==================== SOCIAL MEDIA ==================== -->
+    <item component="ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity}" drawable="ios26_lg_instagram" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.app.main.MainActivity}" drawable="ios26_lg_twitter" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.HomeActivity}" drawable="ios26_lg_whatsapp" />
+    <item component="ComponentInfo{com.whatsapp.w4b/com.whatsapp.HomeActivity}" drawable="ios26_lg_whatsapp" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="ios26_lg_telegram" />
+    <item component="ComponentInfo{org.telegram.messenger.web/org.telegram.ui.LaunchActivity}" drawable="ios26_lg_telegram" />
+    <item component="ComponentInfo{com.discord/com.discord.main.MainActivity}" drawable="ios26_lg_discord" />
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}" drawable="ios26_lg_facebook" />
+    <item component="ComponentInfo{com.facebook.orca/com.facebook.orca.auth.StartScreenActivity}" drawable="ios26_lg_facebook" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LandingPageActivity}" drawable="ios26_lg_snapchat" />
+    <item component="ComponentInfo{com.reddit.frontpage/com.reddit.frontpage.MainActivity}" drawable="ios26_lg_reddit" />
+    <item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.LaunchActivity}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{com.pinterest/com.pinterest.activity.PinterestActivity}" drawable="ios26_lg_pinterest" />
+    <item component="ComponentInfo{com.tiktok/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="ios26_lg_tiktok" />
+    <item component="ComponentInfo{com.Slack/com.Slack.ui.HomeActivity}" drawable="ios26_lg_slack" />
+    <item component="ComponentInfo{com.viber.voip/com.viber.voip.WelcomeActivity}" drawable="ios26_lg_messages" />
+    <item component="ComponentInfo{org.signal.signal/org.thoughtcrime.securesms.MainActivity}" drawable="ios26_lg_messages" />
+    <item component="ComponentInfo{com.mastodon.android/com.mastodon.android.MainActivity}" drawable="ios26_lg_safari" />
+
+    <!-- ==================== YOUTUBE ==================== -->
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.HomeActivity}" drawable="ios26_lg_youtube" />
+    <item component="ComponentInfo{com.vanced.android.youtube/com.google.android.youtube.HomeActivity}" drawable="ios26_lg_youtube" />
+    <item component="ComponentInfo{app.revanced.android.youtube/com.google.android.youtube.HomeActivity}" drawable="ios26_lg_youtube" />
+
+    <!-- ==================== STREAMING / VIDEO ==================== -->
+    <item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.ui.launch.UIWebViewActivity}" drawable="ios26_lg_netflix" />
+    <item component="ComponentInfo{com.disney.disneyplus/com.bamtechmedia.dominguez.main.MainActivity}" drawable="ios26_lg_facetime" />
+    <item component="ComponentInfo{com.hbo.hbonow/com.hbo.hbonow.app.HBOMainActivity}" drawable="ios26_lg_facetime" />
+    <item component="ComponentInfo{com.amazon.avod.thirdpartyclient/com.amazon.avod.thirdpartyclient.LauncherActivity}" drawable="ios26_lg_facetime" />
+    <item component="ComponentInfo{com.hulu.plus/com.hulu.plus.splashscreen.SplashScreenActivity}" drawable="ios26_lg_facetime" />
+    <item component="ComponentInfo{com.plexapp.android/com.plexapp.plex.activities.SplashActivity}" drawable="ios26_lg_facetime" />
+    <item component="ComponentInfo{com.crunchyroll.crunchyroid/com.crunchyroll.crunchyroid.activities.SplashActivity}" drawable="ios26_lg_facetime" />
+    <item component="ComponentInfo{tv.twitch.android.app/tv.twitch.android.app.core.LandingActivity}" drawable="ios26_lg_facetime" />
+
+    <!-- ==================== GOOGLE APPS ==================== -->
+    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.drive.startup.StartupActivity}" drawable="ios26_lg_google_drive" />
+    <item component="ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.editors.kix.KixEditorActivity}" drawable="ios26_lg_google_docs" />
+    <item component="ComponentInfo{com.google.android.apps.docs.editors.sheets/com.google.android.apps.docs.editors.sheets.SheetsEditorActivity}" drawable="ios26_lg_google_sheets" />
+    <item component="ComponentInfo{com.google.android.apps.docs.editors.slides/com.google.android.apps.docs.editors.slides.SlidesEditorActivity}" drawable="ios26_lg_google_slides" />
+    <item component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.TranslateActivity}" drawable="ios26_lg_google_translate" />
+    <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="ios26_lg_google_search" />
+    <item component="ComponentInfo{com.google.android.apps.googleassistant/com.google.android.apps.googleassistant.AssistantActivity}" drawable="ios26_lg_google_search" />
+    <item component="ComponentInfo{com.google.android.apps.podcasts/com.google.android.apps.podcasts.activity.MainActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.google.android.apps.classroom/com.google.android.apps.classroom.ListCourseActivity}" drawable="ios26_lg_google_classroom" />
+    <item component="ComponentInfo{com.google.ar.lens/com.google.vr.apps.ornament.app.MainActivity}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{com.google.android.apps.authenticator2/com.google.android.apps.authenticator.AuthenticatorActivity}" drawable="ios26_lg_settings" />
+
+    <!-- ==================== MICROSOFT APPS ==================== -->
+    <item component="ComponentInfo{com.microsoft.office.word/com.microsoft.office.apphost.LaunchActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.microsoft.office.excel/com.microsoft.office.apphost.LaunchActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.microsoft.office.powerpoint/com.microsoft.office.apphost.LaunchActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.microsoft.office.officehubrow/com.microsoft.office.apphost.LaunchActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{com.microsoft.todos/com.microsoft.todos.ui.LauncherActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.microsoft.onedrive/com.microsoft.onedrive.MainActivity}" drawable="ios26_lg_files" />
+
+    <!-- ==================== SHOPPING ==================== -->
+    <item component="ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="ios26_lg_amazon" />
+    <item component="ComponentInfo{com.ebay.mobile/com.ebay.mobile.activities.MainActivity}" drawable="ios26_lg_appstore" />
+    <item component="ComponentInfo{com.shopify.arrive/com.shopify.arrive.activities.LaunchActivity}" drawable="ios26_lg_appstore" />
+    <item component="ComponentInfo{com.alibaba.aliexpresshd/com.alibaba.aliexpresshd.home.ui.SplashActivity}" drawable="ios26_lg_appstore" />
+
+    <!-- ==================== BANKING / FINANCE ==================== -->
+    <item component="ComponentInfo{com.robinhood.android/com.robinhood.android.app.TopLevelActivity}" drawable="ios26_lg_robinhood" />
+    <item component="ComponentInfo{com.coinbase.android/com.coinbase.android.ui.MainActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{piuk.blockchain.android/piuk.blockchain.android.ui.launcher.LauncherActivity}" drawable="ios26_lg_wallet" />
+
+    <!-- ==================== TRANSPORTATION ==================== -->
+    <item component="ComponentInfo{com.ubercab/com.ubercab.presidio.app.core.root.RootActivity}" drawable="ios26_lg_uber" />
+    <item component="ComponentInfo{com.lyft.android/com.lyft.android.ui.LyftSplashActivity}" drawable="ios26_lg_maps" />
+
+    <!-- ==================== FOOD DELIVERY ==================== -->
+    <item component="ComponentInfo{com.dd.doordash/com.dd.doordash.activity.SplashScreenActivity}" drawable="ios26_lg_maps" />
+    <item component="ComponentInfo{com.ubereats/com.ubercab.eats.ui.root.RootActivity}" drawable="ios26_lg_uber" />
+    <item component="ComponentInfo{com.grubhub.android/com.grubhub.android.ui.SplashActivity}" drawable="ios26_lg_maps" />
+
+    <!-- ==================== UTILITIES ==================== -->
+    <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.LauncherActivity}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadList}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.SoundRecorder}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.samsung.android.app.soundrecorder/com.samsung.android.app.soundrecorder.VoiceRecorderMainActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.samsung.android.app.reminder/com.samsung.android.app.reminder.main.ReminderMainActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.google.android.apps.recorder/com.google.android.apps.recorder.activity.MainActivity}" drawable="ios26_lg_music" />
+
+    <!-- ==================== VPN / SECURITY ==================== -->
+    <item component="ComponentInfo{com.nordvpn.android/com.nordvpn.android.app.main.MainActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.expressvpn.vpn/com.expressvpn.vpn.activities.DashboardActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{org.torproject.android/org.torproject.android.OrbotMainActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.wireguard.android/com.wireguard.android.activity.MainActivity}" drawable="ios26_lg_settings" />
+
+    <!-- ==================== PASSWORD MANAGERS ==================== -->
+    <item component="ComponentInfo{com.x8bit.bitwarden/com.x8bit.bitwarden.MainActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.onepassword.android/com.onepassword.android.activities.SplashActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{keepass2android.keepass2android/keepass2android.PasswordActivity}" drawable="ios26_lg_settings" />
+
+    <!-- ==================== READING ==================== -->
+    <item component="ComponentInfo{com.amazon.kindle/com.amazon.kindle.UpgradePage}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.google.android.apps.books/com.google.android.apps.books.app.BooksActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.audible.application/com.audible.application.SplashScreenActivity}" drawable="ios26_lg_music" />
+
+    <!-- ==================== PODCAST ==================== -->
+    <item component="ComponentInfo{fm.castbox.audiobook.radio.podcast/fm.castbox.audiobook.radio.podcast.app.SplashActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.bambuna.podcastaddict/com.bambuna.podcastaddict.activity.MainActivity}" drawable="ios26_lg_music" />
+
+    <!-- ==================== NEWS ==================== -->
+    <item component="ComponentInfo{com.google.android.apps.magazines/com.google.apps.magazines.activities.HomeActivity}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{flipboard.app/flipboard.app.FlipboardActivity}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{com.guardian/com.guardian.feature.MainActivity}" drawable="ios26_lg_safari" />
+
+    <!-- ==================== LAUNCHERS ==================== -->
+    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaLauncher}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{ch.deletescape.lawnchair.ci/ch.deletescape.lawnchair.Launcher}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{app.lawnchair/app.lawnchair.LawnchairLauncher}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.microsoft.launcher/com.microsoft.launcher.Launcher}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{ginlemon.iconpackstudio/ginlemon.iconpackstudio.LauncherActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.niagara.launcher/com.niagara.launcher.NiagaraLauncherActivity}" drawable="ios26_lg_settings" />
+
+    <!-- ==================== COMPASS ==================== -->
+    <item component="ComponentInfo{com.gn.android.compass/com.gn.android.compass.CompassActivity}" drawable="ios26_lg_compass" />
+
+    <!-- ==================== SYSTEM TOOLS ==================== -->
+    <item component="ComponentInfo{com.android.systemui/com.android.systemui.recents.RecentsActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.samsung.android.app.smartcapture/com.samsung.android.app.smartcapture.ScreenCaptureActivity}" drawable="ios26_lg_photos" />
+    <item component="ComponentInfo{com.samsung.android.themestore/com.samsung.android.themestore.activity.MainTabActivity}" drawable="ios26_lg_appstore" />
+    <item component="ComponentInfo{com.samsung.android.game.gamehome/com.samsung.android.game.gamehome.MainActivity}" drawable="ios26_lg_appstore" />
+    <item component="ComponentInfo{com.samsung.android.bixby.agent/com.samsung.android.bixby.agent.BixbyAgentActivity}" drawable="ios26_lg_safari" />
+
+    <!-- ==================== DEV TOOLS ==================== -->
+    <item component="ComponentInfo{com.github.android/com.github.android.activities.SplashActivity}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{com.termux/com.termux.app.TermuxActivity}" drawable="ios26_lg_settings" />
+
+
+    <!-- ==================== THIRD-PARTY (iOS Icon Pack v1.1.1) ==================== -->
+    <!-- Apps that ship a dedicated tp_* PNG rather than reusing a stock iOS glyph. -->
+    <item component="ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="ios26_lg_amazon" />
+    <item component="ComponentInfo{com.amazon.windowshop/com.amazon.windowshop.WindowshopActivity}" drawable="ios26_lg_amazon" />
+    <item component="ComponentInfo{com.shazam.android/com.shazam.android.activities.LaunchActivity}" drawable="ios26_lg_shazam" />
+    <!-- Threads (by Instagram team) - use Instagram tp icon until dedicated art ships -->
+    <item component="ComponentInfo{com.instagram.barcelona/com.instagram.barcelona.MainActivity}" drawable="ios26_lg_instagram" />
+    <!-- X (new Twitter package) -->
+    <item component="ComponentInfo{com.x.android/com.twitter.app.main.MainActivity}" drawable="ios26_lg_twitter" />
+    <!-- BeReal, photo-sharing-but-really-social -->
+    <item component="ComponentInfo{com.bereal.ft/com.bereal.ft.MainActivity}" drawable="ios26_lg_instagram" />
+    <!-- Threema, secure messenger -->
+    <item component="ComponentInfo{ch.threema.app/ch.threema.app.activities.HomeActivity}" drawable="ios26_lg_whatsapp" />
+    <!-- Signal Private Messenger -->
+    <!-- Session, onion-routed messenger -->
+    <item component="ComponentInfo{network.loki.messenger/org.thoughtcrime.securesms.home.HomeActivity}" drawable="ios26_lg_telegram" />
+    <!-- Microsoft Teams -->
+    <item component="ComponentInfo{com.microsoft.teams/com.microsoft.teams.LauncherActivity}" drawable="ios26_lg_slack" />
+    <!-- Lemmy clients - use Reddit icon -->
+    <item component="ComponentInfo{com.jerboa/com.jerboa.MainActivity}" drawable="ios26_lg_reddit" />
+    <item component="ComponentInfo{com.jerboa.debug/com.jerboa.MainActivity}" drawable="ios26_lg_reddit" />
+    <!-- Mastodon -->
+    <item component="ComponentInfo{org.joinmastodon.android/org.joinmastodon.android.MainActivity}" drawable="ios26_lg_twitter" />
+    <item component="ComponentInfo{com.sct.elk/com.sct.elk.MainActivity}" drawable="ios26_lg_twitter" />
+    <!-- Bluesky -->
+    <item component="ComponentInfo{xyz.blueskyweb.app/xyz.blueskyweb.app.MainActivity}" drawable="ios26_lg_twitter" />
+    <!-- Lyft - alternate rideshare uses uber tp icon until dedicated art ships -->
+    <item component="ComponentInfo{me.lyft.android/com.lyft.android.app.MainActivity}" drawable="ios26_lg_uber" />
+    <!-- DoorDash, food delivery -->
+    <item component="ComponentInfo{com.dd.doordash/com.dd.doordash.ui.store.LandingActivity}" drawable="ios26_lg_uber" />
+    <!-- Grubhub -->
+    <item component="ComponentInfo{com.grubhub.android/com.grubhub.android.MainActivity}" drawable="ios26_lg_uber" />
+    <!-- Cash App -->
+    <item component="ComponentInfo{com.squareup.cash/com.squareup.cash.launcher.real.RealLauncherActivity}" drawable="ios26_lg_venmo" />
+    <!-- Audible - audiobooks, use Amazon tp icon -->
+    <item component="ComponentInfo{com.audible.application/com.audible.application.SplashActivity}" drawable="ios26_lg_amazon" />
+    <!-- GitHub mobile -->
+    <item component="ComponentInfo{com.github.android/com.github.android.activities.MainActivity}" drawable="ios26_lg_files" />
+    <!-- Obsidian notes -->
+    <item component="ComponentInfo{md.obsidian/md.obsidian.MainActivity}" drawable="ios26_lg_notes" />
+    <!-- Google Keep -->
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="ios26_lg_google_keep" />
+    <!-- Notion -->
+    <item component="ComponentInfo{notion.id/notion.id.main.MainActivity}" drawable="ios26_lg_notes" />
+    <!-- Bear Notes - use notes icon -->
+    <item component="ComponentInfo{com.bear.notes/com.bear.notes.MainActivity}" drawable="ios26_lg_notes" />
+    <!-- Todoist -->
+    <item component="ComponentInfo{com.todoist/com.todoist.MainActivity}" drawable="ios26_lg_calendar" />
+    <!-- Google Calendar -->
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="ios26_lg_google_calendar" />
+    <item component="ComponentInfo{com.yahoo.mobile.client.android.mail/com.yahoo.mobile.client.android.mail.MainActivity}" drawable="ios26_lg_mail" />
+    <!-- Proton Mail -->
+    <item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.MainActivity}" drawable="ios26_lg_mail" />
+    <!-- 1Password -->
+    <item component="ComponentInfo{com.onepassword.android/com.onepassword.android.SplashActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.kunzisoft.keepass.free/com.kunzisoft.keepass.activities.FileDatabaseSelectActivity}" drawable="ios26_lg_wallet" />
+    <!-- Duolingo -->
+    <item component="ComponentInfo{com.duolingo/com.duolingo.splash.LaunchActivity}" drawable="ios26_lg_appstore" />
+    <!-- Khan Academy -->
+    <item component="ComponentInfo{org.khanacademy.android/org.khanacademy.android.activity.MainActivity}" drawable="ios26_lg_appstore" />
+    <item component="ComponentInfo{com.spotify.music.free/com.spotify.music.MainActivity}" drawable="ios26_lg_spotify" />
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.apps.youtube.app.WatchWhileActivity}" drawable="ios26_lg_youtube" />
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.apps.youtube.app.honeycomb.Shell$HomeActivity}" drawable="ios26_lg_youtube" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.GmailActivity}" drawable="ios26_lg_gmail" />
+    <item component="ComponentInfo{com.chrome.beta/com.google.android.apps.chrome.Main}" drawable="ios26_lg_chrome" />
+    <item component="ComponentInfo{com.chrome.dev/com.google.android.apps.chrome.Main}" drawable="ios26_lg_chrome" />
+    <item component="ComponentInfo{com.chrome.canary/com.google.android.apps.chrome.Main}" drawable="ios26_lg_chrome" />
+    <item component="ComponentInfo{com.discord/com.discord.app.AppActivity$Main}" drawable="ios26_lg_discord" />
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.activity.UnauthenticatedFbFragmentActivity}" drawable="ios26_lg_facebook" />
+    <item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.activity.StartupActivity}" drawable="ios26_lg_netflix" />
+    <item component="ComponentInfo{com.snapchat.android/com.snap.mushroom.MainActivity}" drawable="ios26_lg_snapchat" />
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LoginActivity}" drawable="ios26_lg_snapchat" />
+    <item component="ComponentInfo{com.ss.android.ugc.trill/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="ios26_lg_tiktok" />
+    <item component="ComponentInfo{us.zoom.videomeetings/com.zipow.videobox.LaunchActivity}" drawable="ios26_lg_zoom" />
+    <item component="ComponentInfo{com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.startup.StartupActivity}" drawable="ios26_lg_paypal" />
+    <item component="ComponentInfo{com.robinhood.android/com.robinhood.android.ui.activities.SplashActivity}" drawable="ios26_lg_robinhood" />
+    <item component="ComponentInfo{com.strava/com.strava.activityrecording.startup.LaunchActivity}" drawable="ios26_lg_strava" />
+    <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{com.brave.browser/com.google.android.apps.chrome.Main}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{com.opera.browser/com.opera.Opera}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{com.sec.android.app.sbrowser/com.sec.android.app.sbrowser.SBrowserMainActivity}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{com.kiwibrowser.browser/org.chromium.chrome.browser.ChromeTabbedActivity}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{org.torproject.torbrowser/org.torproject.torbrowser.MainActivity}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{com.vivaldi.browser/com.google.android.apps.chrome.Main}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{com.amazon.mp3/com.amazon.mp3.activity.IntroActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.aspiro.tidal/com.aspiro.tidal.activities.launch.SplashActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{deezer.android.app/deezer.android.app.ui.activities.MainActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.apple.android.music/com.apple.android.music.MainActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.pandora.android/com.pandora.android.MainActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.iheartradio.android/com.iheartradio.android.MainActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.sec.android.gallery3d/com.samsung.android.gallery.app.activity.GalleryActivity}" drawable="ios26_lg_photos" />
+    <item component="ComponentInfo{com.oneplus.gallery/com.oneplus.gallery.MainActivity}" drawable="ios26_lg_photos" />
+    <item component="ComponentInfo{com.xiaomi.skywork.gallery/com.xiaomi.skywork.gallery.MainActivity}" drawable="ios26_lg_photos" />
+    <item component="ComponentInfo{com.google.android.apps.photosgo/com.google.android.apps.photos.home.HomeActivity}" drawable="ios26_lg_google_photos" />
+    <item component="ComponentInfo{com.google.android.apps.meetings/com.google.android.apps.meetings.MainActivity}" drawable="ios26_lg_google_meet" />
+    <item component="ComponentInfo{com.skype.m2/com.skype.raider.Main}" drawable="ios26_lg_facetime" />
+    <item component="ComponentInfo{com.microsoft.skype.teams.ipphone/com.skype.raider.Main}" drawable="ios26_lg_facetime" />
+    <item component="ComponentInfo{com.webex.meetings/com.cisco.webex.meetings.act.HomeActivity}" drawable="ios26_lg_facetime" />
+    <item component="ComponentInfo{com.samsung.android.alarmclocknew/com.samsung.android.alarmclocknew.AlarmClockNew}" drawable="ios26_lg_clock" />
+    <item component="ComponentInfo{com.htc.android.worldclock/com.htc.android.worldclock.WorldClockTabControl}" drawable="ios26_lg_clock" />
+    <item component="ComponentInfo{com.oneplus.clock/com.oneplus.clock.MainFragmentActivity}" drawable="ios26_lg_clock" />
+    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="ios26_lg_google_drive" />
+    <item component="ComponentInfo{com.dropbox.android/com.dropbox.android.activity.GetStarted}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.box.android/com.box.android.activities.SplashActivity}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.microsoft.skydrive/com.microsoft.skydrive.MainActivity}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.samsung.android.app.myfiles/com.samsung.android.app.myfiles.presentation.ui.MainActivity}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.mi.android.globalFileexplorer/com.mi.android.globalFileexplorer.myplugin.ActivityMain}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.accuweather.android/com.accuweather.android.MainActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{com.weather.Weather/com.weather.Weather.TWC_Tab_NoAnim}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{com.sec.android.daemonapp/com.sec.android.daemonapp.WeatherProvider}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{org.breezyweather/org.breezyweather.main.MainActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{de.metacrew.livewetter/de.metacrew.livewetter.MainActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{com.standardnotes/com.standardnotes.MainActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.evernote/com.evernote.ui.HomeActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{net.cozic.joplin/net.cozic.joplin.MainActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{md.samir65436.simple_notes/md.samir65436.simple_notes.activities.MainActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.compose.ComposeActivity}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{com.samsung.android.email.provider/com.samsung.android.email.ui.messageview.MessageListFragment}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{me.mEmail.client/me.mEmail.client.MainActivity}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{eu.faircode.email/eu.faircode.email.ActivityMain}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{com.tutanota/de.tutao.tutanota.MainActivity}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{com.fastmail.app/com.fastmail.app.MainActivity}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{com.google.android.dialer/com.android.dialer.DialtactsActivity}" drawable="ios26_lg_phone" />
+    <item component="ComponentInfo{com.sec.android.app.dialertab/com.sec.android.app.dialertab.dialpad.SpeedDialActivity}" drawable="ios26_lg_phone" />
+    <item component="ComponentInfo{com.miui.phone/com.android.dialer.DialtactsActivity}" drawable="ios26_lg_phone" />
+    <item component="ComponentInfo{com.oneplus.dialer/com.android.dialer.DialtactsActivity}" drawable="ios26_lg_phone" />
+    <item component="ComponentInfo{com.zte.mf.dialer/com.zte.mf.dialer.DialtactsActivity}" drawable="ios26_lg_phone" />
+    <item component="ComponentInfo{com.facebook.orca/com.facebook.messenger.MainActivity}" drawable="ios26_lg_messages" />
+    <item component="ComponentInfo{com.samsung.android.messaging/com.samsung.android.messaging.MainActivity}" drawable="ios26_lg_messages" />
+    <item component="ComponentInfo{com.imo.android.imoim/com.imo.android.imoim.activities.SplashActivity}" drawable="ios26_lg_messages" />
+    <item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="ios26_lg_appstore" />
+    <item component="ComponentInfo{com.apkpure.aegon/com.apkpure.aegon.activity.SplashActivity}" drawable="ios26_lg_appstore" />
+    <item component="ComponentInfo{io.github.droidify/io.github.droidify.MainActivity}" drawable="ios26_lg_appstore" />
+    <item component="ComponentInfo{com.here.app.maps/com.here.app.maps.MapActivity}" drawable="ios26_lg_maps" />
+    <item component="ComponentInfo{com.sygic.truck/com.sygic.navigation.map.activity.InitActivity}" drawable="ios26_lg_maps" />
+    <item component="ComponentInfo{ru.yandex.yandexmaps/ru.yandex.yandexmaps.map.MainActivity}" drawable="ios26_lg_maps" />
+    <item component="ComponentInfo{com.citymapper.app.release/com.citymapper.app.MainActivity}" drawable="ios26_lg_maps" />
+    <item component="ComponentInfo{com.samsung.android.spay/com.samsung.android.spay.portal.main.MainActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.google.android.apps.nbu.paisa.user/com.google.android.apps.nbu.paisa.user.ui.home.HomeActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.visa.app.android/com.visa.app.android.SplashActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.barclays.android.barclaysmobilebanking/com.barclays.android.barclaysmobilebanking.LoginActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.chase.sig.android/com.chase.sig.android.feature.login.LoginActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.sec.android.app.popupcalculator/com.sec.android.app.popupcalculator.Calculator}" drawable="ios26_lg_calculator" />
+    <item component="ComponentInfo{com.miui.calculator/com.miui.calculator.CalActivity}" drawable="ios26_lg_calculator" />
+    <item component="ComponentInfo{com.oneplus.calculator/com.oneplus.calculator.Calculator}" drawable="ios26_lg_calculator" />
+    <item component="ComponentInfo{com.samsung.android.shealth/com.samsung.android.app.shealth.SHealthMainActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.garmin.android.apps.connectmobile/com.garmin.android.apps.connectmobile.activity.MainActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.whoop.android/com.whoop.android.ui.MainActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.fitbit.FitbitMobile/com.fitbit.FitbitMobile.ui.launch.SplashActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.samsung.android.app.compass/com.samsung.android.app.compass.CompassActivity}" drawable="ios26_lg_compass" />
+    <item component="ComponentInfo{com.miui.compass/com.miui.compass.main.CompassActivity}" drawable="ios26_lg_compass" />
+    <item component="ComponentInfo{com.apple.android.maps/com.apple.android.maps.MapsActivity}" drawable="ios26_lg_compass" />
+    <item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.activities.MainActivity}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{de.tutao.tutanota/de.tutao.tutanota.MainActivity}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{com.yahoo.mobile.client.android.mail/com.yahoo.mobile.client.android.mail.activities.MainActivity}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{org.kman.AquaMail/org.kman.AquaMail.ui.overall.StartActivity}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.Accounts}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{net.thunderbird.android/net.thunderbird.android.activity.Accounts}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{com.samsung.android.email.provider/com.samsung.android.email.ui.main.MailActivity}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{org.thoughtcrime.securesms/org.thoughtcrime.securesms.MainActivity}" drawable="ios26_lg_messages" />
+    <item component="ComponentInfo{com.viber.voip/com.viber.voip.activity.SplashActivity}" drawable="ios26_lg_messages" />
+    <item component="ComponentInfo{com.samsung.android.messaging/com.samsung.android.messaging.ui.MainActivity}" drawable="ios26_lg_messages" />
+    <item component="ComponentInfo{jp.naver.line.android/jp.naver.line.android.activity.SplashActivity}" drawable="ios26_lg_messages" />
+    <item component="ComponentInfo{org.telegram.messenger.web/org.telegram.messenger.DefaultIcon}" drawable="ios26_lg_messages" />
+    <item component="ComponentInfo{org.telegram.plus/org.telegram.messenger.DefaultIcon}" drawable="ios26_lg_messages" />
+    <item component="ComponentInfo{com.whatsapp.w4b/com.whatsapp.Main}" drawable="ios26_lg_messages" />
+    <item component="ComponentInfo{com.huawei.message/com.huawei.message.MainActivity}" drawable="ios26_lg_messages" />
+    <item component="ComponentInfo{com.samsung.android.calendar/com.samsung.android.calendar.main.MainActivity}" drawable="ios26_lg_calendar" />
+    <item component="ComponentInfo{com.miui.calendar/com.miui.calendar.MainActivity}" drawable="ios26_lg_calendar" />
+    <item component="ComponentInfo{com.oneplus.calendar/com.oneplus.calendar.MainActivity}" drawable="ios26_lg_calendar" />
+    <item component="ComponentInfo{com.huawei.calendar/com.android.calendar.AllInOneActivity}" drawable="ios26_lg_calendar" />
+    <item component="ComponentInfo{com.htc.calendar/com.android.calendar.AllInOneActivity}" drawable="ios26_lg_calendar" />
+    <item component="ComponentInfo{com.appgenix.bizcal/com.appgenix.bizcal.IntroActivity}" drawable="ios26_lg_calendar" />
+    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.calendar.CalendarActivity}" drawable="ios26_lg_calendar" />
+    <item component="ComponentInfo{com.waze/com.waze.WazeActivity}" drawable="ios26_lg_maps" />
+    <item component="ComponentInfo{com.here.app.maps/com.here.app.maps.SplashScreenActivity}" drawable="ios26_lg_maps" />
+    <item component="ComponentInfo{com.mapswithme.maps.pro/com.mapswithme.maps.SplashActivity}" drawable="ios26_lg_maps" />
+    <item component="ComponentInfo{net.osmand/net.osmand.plus.activities.MapActivity}" drawable="ios26_lg_maps" />
+    <item component="ComponentInfo{net.osmand.plus/net.osmand.plus.activities.MapActivity}" drawable="ios26_lg_maps" />
+    <item component="ComponentInfo{me.couplebits.organicmaps/app.organicmaps.MwmActivity}" drawable="ios26_lg_maps" />
+    <item component="ComponentInfo{com.yandex.maps/com.yandex.maps.MapkitSampleActivity}" drawable="ios26_lg_maps" />
+    <item component="ComponentInfo{com.samsung.android.incallui/com.samsung.android.dialer.DialtactsActivity}" drawable="ios26_lg_phone" />
+    <item component="ComponentInfo{com.huawei.contacts/com.android.contacts.activities.PeopleActivity}" drawable="ios26_lg_phone" />
+    <item component="ComponentInfo{com.motorola.phone/com.android.dialer.DialtactsActivity}" drawable="ios26_lg_phone" />
+    <item component="ComponentInfo{com.lge.dialer/com.android.dialer.DialtactsActivity}" drawable="ios26_lg_phone" />
+    <item component="ComponentInfo{com.htc.contacts/com.htc.contacts.HtcContactsActivity}" drawable="ios26_lg_phone" />
+    <item component="ComponentInfo{com.oneplus.clock/com.oneplus.deskclock.DeskClock}" drawable="ios26_lg_clock" />
+    <item component="ComponentInfo{com.miui.clock/com.android.deskclock.DeskClock}" drawable="ios26_lg_clock" />
+    <item component="ComponentInfo{com.huawei.deskclock/com.android.deskclock.DeskClock}" drawable="ios26_lg_clock" />
+    <item component="ComponentInfo{com.lge.clock/com.android.deskclock.DeskClock}" drawable="ios26_lg_clock" />
+    <item component="ComponentInfo{com.google.android.GoogleCamera/com.google.android.GoogleCamera.app.GCamMainActivity}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{com.miui.camera/com.android.camera.CameraLauncher}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{net.oneplus.camera/net.oneplus.camera.ui.CameraActivity}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{com.huawei.camera/com.huawei.camera.CameraMainActivity}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{com.motorola.camera2/com.motorola.camera2.CameraActivity}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{com.lge.camera/com.lge.camera.LGCameraActivity}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{org.codeaurora.snapcam/com.android.camera.CameraLauncher}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{com.google.android.GoogleCameraEgo/com.google.android.GoogleCamera.app.GCamMainActivity}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{notion.id/notion.id.MainActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.samsung.android.app.notes/com.samsung.android.app.notes.activity.NoteListActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.simplenote.android/com.simplenote.android.ui.NotesActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.miui.notes/com.miui.notes.ui.NotesListActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.huawei.notepad/com.huawei.notepad.MainActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.miui.calculator/com.android.calculator2.Calculator}" drawable="ios26_lg_calculator" />
+    <item component="ComponentInfo{com.huawei.calculator/com.android.calculator2.Calculator}" drawable="ios26_lg_calculator" />
+    <item component="ComponentInfo{com.lge.calculator/com.lge.calculator.Calculator}" drawable="ios26_lg_calculator" />
+    <item component="ComponentInfo{com.samsung.android.settings/com.samsung.android.settings.Settings}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.miui.settings/com.android.settings.Settings}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.huawei.systemmanager/com.huawei.systemmanager.mainscreen.MainScreenActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.oneplus.settings/com.android.settings.Settings}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.accuweather.android/com.accuweather.android.activities.HomeActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{com.weather.Weather/com.weather.Weather.MainActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{com.weather.forecast.channel.daily.radar/com.weather.forecast.channel.daily.radar.MainActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{com.yahoo.mobile.client.android.weather/com.yahoo.mobile.client.android.weather.activities.MainActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{fr.hbis.weather/fr.hbis.weather.MainActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{com.samsung.android.app.weather/com.samsung.android.app.weather.main.WeatherMainActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{com.miui.weather2/com.miui.weather2.WeatherMainActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{com.huawei.android.totemweather/com.huawei.android.totemweather.MainActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{com.google.android.apps.fitness/com.google.android.apps.fitness.api.FitnessActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.sec.android.app.shealth/com.sec.android.app.shealth.tabbar.TabbarActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.myfitnesspal.android/com.myfitnesspal.android.SplashActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.fitbit.FitbitMobile/com.fitbit.FitbitMobile.ui.SplashActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.runkeeper.android/com.fitnesskeeper.runkeeper.ui.home.HomeActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.nike.plusgps/com.nike.plusgps.NikeRunning}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.zepp.health/com.huami.watch.hmwatchmanager.MainActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.polar.flow.app/com.polar.flow.app.main.MainActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.android.apps.wallet.ui.WalletHomeActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.samsung.android.spay/com.samsung.android.spay.activity.SplashActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.squareup.cash/com.squareup.cash.ui.activity.MainActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.coinbase.android/com.coinbase.android.MainActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{co.bitx.android.wallet/co.bitx.android.wallet.ui.activity.SplashActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.blockchain.android/com.blockchain.android.ui.launcher.LauncherActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{pl.solidexplorer2/pl.solidexplorer.SolidExplorer}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.ghisler.android.TotalCommander/com.ghisler.android.TotalCommander.TotalCommander}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{nextapp.fx/nextapp.fx.HomeActivity}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.samsung.android.myfiles/com.samsung.android.myfiles.MainActivity}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.mi.android.globalFileexplorer/com.mi.android.globalFileexplorer.myplugin.PluginMainActivity}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.huawei.hidisk/com.huawei.hidisk.MainActivity}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.sec.android.app.samsungapps/com.sec.android.app.samsungapps.Main}" drawable="ios26_lg_appstore" />
+    <item component="ComponentInfo{com.amazon.venezia/com.amazon.venezia.Venezia}" drawable="ios26_lg_appstore" />
+    <item component="ComponentInfo{com.huawei.appmarket/com.huawei.appmarket.HomeActivity}" drawable="ios26_lg_appstore" />
+    <item component="ComponentInfo{com.aptoide.partners/cm.aptoide.pt.home.HomeActivity}" drawable="ios26_lg_appstore" />
+    <item component="ComponentInfo{com.miui.packageinstaller/com.miui.packageinstaller.MainActivity}" drawable="ios26_lg_appstore" />
+    <item component="ComponentInfo{com.google.android.apps.tachyon/com.google.android.apps.tachyon.ui.main.MainActivity}" drawable="ios26_lg_google_meet" />
+    <item component="ComponentInfo{com.cisco.webex.meetings/com.cisco.webex.meetings.ui.SplashActivity}" drawable="ios26_lg_facetime" />
+    <item component="ComponentInfo{com.gotomeeting/com.gotomeeting.ui.LaunchActivity}" drawable="ios26_lg_facetime" />
+    <item component="ComponentInfo{com.bluejeans.android.blindside.meetings/com.blazeovideo.android.activities.SplashScreen}" drawable="ios26_lg_facetime" />
+    <item component="ComponentInfo{com.wire/com.wire.android.MainActivity}" drawable="ios26_lg_facetime" />
+    <item component="ComponentInfo{com.compass.android/com.compass.android.MainActivity}" drawable="ios26_lg_compass" />
+    <item component="ComponentInfo{vn.axie.compass.pro/vn.axie.compass.pro.MainActivity}" drawable="ios26_lg_compass" />
+    <item component="ComponentInfo{com.samsung.android.app.compass/com.samsung.android.app.compass.MainActivity}" drawable="ios26_lg_compass" />
+    <item component="ComponentInfo{com.huawei.compass/com.huawei.compass.MainActivity}" drawable="ios26_lg_compass" />
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.apps.gmm.map.MapDisplayActivity}" drawable="ios26_lg_google_maps" />
+    <item component="ComponentInfo{com.pinterest/com.pinterest.activity.PinItActivity}" drawable="ios26_lg_pinterest" />
+    <item component="ComponentInfo{com.pinterest.twa/com.pinterest.twa.TwaLauncherActivity}" drawable="ios26_lg_pinterest" />
+    <item component="ComponentInfo{com.shazam.encore.android/com.shazam.android.activities.MainActivity}" drawable="ios26_lg_shazam" />
+    <item component="ComponentInfo{com.shazam.android/com.shazam.android.activities.MainActivity}" drawable="ios26_lg_shazam" />
+    <item component="ComponentInfo{com.Slack/slack.app.ui.homescreen.HomeScreenActivity}" drawable="ios26_lg_slack" />
+    <item component="ComponentInfo{com.Slack/com.Slack.LaunchActivity}" drawable="ios26_lg_slack" />
+    <item component="ComponentInfo{com.reddit.frontpage/com.reddit.frontpage.ui.main.MainActivity}" drawable="ios26_lg_reddit" />
+    <item component="ComponentInfo{com.reddit.frontpage/com.reddit.frontpage.main.MainActivity}" drawable="ios26_lg_reddit" />
+    <item component="ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.android.shopping.ShoppingActivity}" drawable="ios26_lg_amazon" />
+    <item component="ComponentInfo{com.ubercab.eats/com.ubercab.eats.core.MainActivity}" drawable="ios26_lg_uber" />
+
+    <!-- ==================== CYCLE 3 — BULK MAPPING EXPANSION ==================== -->
+    <!-- Following Arcticons pattern: link existing drawables to more package variants -->
+
+    <!-- YouTube variants -->
+    <item component="ComponentInfo{com.google.android.apps.youtube.kids/com.google.android.apps.youtube.kids.browse.BrowseActivity}" drawable="ios26_lg_youtube" />
+    <item component="ComponentInfo{com.google.android.youtube.tv/com.google.android.youtube.tv.MainActivity}" drawable="ios26_lg_youtube" />
+    <item component="ComponentInfo{com.google.android.youtube.tvkids/com.google.android.youtube.tvkids.MainActivity}" drawable="ios26_lg_youtube" />
+    <item component="ComponentInfo{com.google.android.apps.youtube.creator/com.google.android.apps.youtube.creator.MainActivity}" drawable="ios26_lg_youtube" />
+    <item component="ComponentInfo{com.google.android.apps.youtube.unplugged/com.google.android.apps.youtube.unplugged.app.MainActivity}" drawable="ios26_lg_youtube" />
+
+    <!-- Facebook / Meta Lite variants -->
+    <item component="ComponentInfo{com.facebook.lite/com.facebook.lite.MainActivity}" drawable="ios26_lg_facebook" />
+    <item component="ComponentInfo{com.facebook.mlite/com.facebook.mlite.MainActivity}" drawable="ios26_lg_facebook" />
+    <item component="ComponentInfo{com.facebook.pages.app/com.facebook.pages.app.MainActivity}" drawable="ios26_lg_facebook" />
+
+    <!-- Instagram Lite -->
+    <item component="ComponentInfo{com.instagram.lite/com.instagram.lite.MainActivity}" drawable="ios26_lg_instagram" />
+
+    <!-- Spotify Lite -->
+    <item component="ComponentInfo{com.spotify.lite/com.spotify.lite.MainActivity}" drawable="ios26_lg_spotify" />
+
+    <!-- Snapchat variants -->
+    <item component="ComponentInfo{com.snap.mushroom/com.snap.mushroom.MainActivity}" drawable="ios26_lg_snapchat" />
+
+    <!-- Telegram variants -->
+    <item component="ComponentInfo{org.telegram.messenger.beta/org.telegram.messenger.DefaultIcon}" drawable="ios26_lg_telegram" />
+    <item component="ComponentInfo{org.thunderbird.android/net.thunderbird.android.LauncherActivity}" drawable="ios26_lg_mail" />
+
+    <!-- Google ecosystem gaps -->
+    <item component="ComponentInfo{com.google.android.apps.dynamite/com.google.android.apps.dynamite.startup.SplashActivity}" drawable="ios26_lg_messages" />
+    <item component="ComponentInfo{com.google.android.apps.googlevoice/com.google.android.apps.googlevoice.SplashActivity}" drawable="ios26_lg_phone" />
+    <item component="ComponentInfo{com.google.android.apps.tasks/com.google.android.apps.tasks.ui.TaskListsActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.google.android.apps.chromecast.app/com.google.android.apps.chromecast.app.DiscoveryActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.google.android.apps.wellbeing/com.google.android.apps.wellbeing.home.TopLevelActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.google.android.apps.safetyhub/com.google.android.apps.safetyhub.home.SafetyHubActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.google.android.projection.gearhead/com.google.android.projection.gearhead.companion.MainActivity}" drawable="ios26_lg_google_maps" />
+    <item component="ComponentInfo{com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.home.HomeActivity}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.google.android.apps.adwords/com.google.android.apps.adwords.ui.LaunchActivity}" drawable="ios26_lg_google_maps" />
+    <item component="ComponentInfo{com.google.android.apps.paidtasks/com.google.android.apps.paidtasks.ui.overview.OverviewActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.google.android.apps.youtube.gaming/com.google.android.apps.youtube.gaming.MainActivity}" drawable="ios26_lg_youtube" />
+    <item component="ComponentInfo{com.google.earth/com.google.earth.EarthActivity}" drawable="ios26_lg_google_maps" />
+
+    <!-- Oppo / ColorOS OEM variants -->
+    <item component="ComponentInfo{com.coloros.calculator/com.coloros.calculator.MainActivity}" drawable="ios26_lg_calculator" />
+    <item component="ComponentInfo{com.coloros.calendar/com.coloros.calendar.MainActivity}" drawable="ios26_lg_calendar" />
+    <item component="ComponentInfo{com.coloros.camera/com.coloros.camera.CameraActivity}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{com.coloros.compass2/com.coloros.compass2.MainActivity}" drawable="ios26_lg_compass" />
+    <item component="ComponentInfo{com.coloros.filemanager/com.coloros.filemanager.MainActivity}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.coloros.gallery3d/com.coloros.gallery3d.app.GalleryActivity}" drawable="ios26_lg_photos" />
+    <item component="ComponentInfo{com.coloros.note/com.coloros.note.MainActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.coloros.weather2/com.coloros.weather2.MainActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{com.coloros.alarmclock/com.coloros.alarmclock.AlarmClock}" drawable="ios26_lg_clock" />
+    <item component="ComponentInfo{com.coloros.phonemanager/com.coloros.phonemanager.MainActivity}" drawable="ios26_lg_settings" />
+
+    <!-- Vivo / iQOO OEM variants -->
+    <item component="ComponentInfo{com.vivo.calculator/com.vivo.calculator.MainActivity}" drawable="ios26_lg_calculator" />
+    <item component="ComponentInfo{com.vivo.calendar/com.vivo.calendar.MainActivity}" drawable="ios26_lg_calendar" />
+    <item component="ComponentInfo{com.vivo.camera/com.vivo.camera.CameraActivity}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{com.vivo.compass/com.vivo.compass.MainActivity}" drawable="ios26_lg_compass" />
+    <item component="ComponentInfo{com.vivo.filemanager/com.vivo.filemanager.MainActivity}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.vivo.gallery/com.vivo.gallery.activity.MainTabActivity}" drawable="ios26_lg_photos" />
+    <item component="ComponentInfo{com.vivo.note/com.vivo.note.MainActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.vivo.weather/com.vivo.weather.MainActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{com.vivo.alarm/com.vivo.alarm.MainActivity}" drawable="ios26_lg_clock" />
+    <item component="ComponentInfo{com.vivo.email/com.vivo.email.activity.Welcome}" drawable="ios26_lg_mail" />
+
+    <!-- Nothing OS variants -->
+    <item component="ComponentInfo{com.nothing.camera/com.nothing.camera.CameraActivity}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{com.nothing.calculator/com.nothing.calculator.MainActivity}" drawable="ios26_lg_calculator" />
+    <item component="ComponentInfo{com.nothing.weather/com.nothing.weather.MainActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{com.nothing.recorder/com.nothing.recorder.MainActivity}" drawable="ios26_lg_music" />
+
+    <!-- Realme OEM variants -->
+    <item component="ComponentInfo{com.realme.calculator/com.realme.calculator.MainActivity}" drawable="ios26_lg_calculator" />
+    <item component="ComponentInfo{com.realme.camera/com.realme.camera.CameraActivity}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{com.realme.compass/com.realme.compass.MainActivity}" drawable="ios26_lg_compass" />
+
+    <!-- Additional popular apps mapped to existing drawables -->
+    <item component="ComponentInfo{com.microsoft.onedrive/com.microsoft.onedrive.MainActivity}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{com.microsoft.office.word/com.microsoft.office.apphost.LaunchActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.azure.authenticator/com.azure.authenticator.ui.main.AuthenticatorActivity}" drawable="ios26_lg_settings" />
+
+    <!-- Banking / Finance variants -->
+    <item component="ComponentInfo{com.chase.sig.android/com.chase.sig.android.activity.SplashActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.wf.wellsfargomobile/com.wf.wellsfargomobile.MainActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.infonow.bofa/com.infonow.bofa.ui.home.HomeActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.zellepay.zelle/com.zellepay.zelle.ui.main.MainActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.ally.MobileBanking/com.ally.MobileBanking.MainActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.capitalone.enterprisemobilebanking/com.capitalone.enterprisemobilebanking.Launcher}" drawable="ios26_lg_wallet" />
+
+    <!-- Shopping / Delivery -->
+    <item component="ComponentInfo{com.walmart.android/com.walmart.android.app.main.HomeActivity}" drawable="ios26_lg_amazon" />
+    <item component="ComponentInfo{com.target.ui/com.target.ui.activity.RootActivity}" drawable="ios26_lg_amazon" />
+    <item component="ComponentInfo{com.instacart.client/com.instacart.client.activity.MapActivity}" drawable="ios26_lg_uber" />
+    <item component="ComponentInfo{com.grubhub.android/com.grubhub.android.activity.HomeActivity}" drawable="ios26_lg_uber" />
+    <item component="ComponentInfo{com.dd.doordash/com.dd.doordash.activity.consumer.ConsumerLandingActivity}" drawable="ios26_lg_uber" />
+    <item component="ComponentInfo{com.ubereats/com.ubereats.MainActivity}" drawable="ios26_lg_uber" />
+    <item component="ComponentInfo{com.alibaba.aliexpresshd/com.alibaba.aliexpresshd.home.MainActivity}" drawable="ios26_lg_amazon" />
+    <item component="ComponentInfo{com.shopify.arrive/com.shopify.arrive.MainActivity}" drawable="ios26_lg_amazon" />
+
+    <!-- Streaming -->
+    <item component="ComponentInfo{com.hulu.plus/com.hulu.plus.MainActivity}" drawable="ios26_lg_netflix" />
+    <item component="ComponentInfo{tv.twitch.android.app/tv.twitch.android.app.main.MainActivity}" drawable="ios26_lg_youtube" />
+    <item component="ComponentInfo{com.hbo.hbonow/com.hbo.hbonow.app.MainActivity}" drawable="ios26_lg_netflix" />
+
+    <!-- Music -->
+    <item component="ComponentInfo{com.apple.android.music/com.apple.android.music.player.activity.MusicPlayerActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.pandora.android/com.pandora.android.Main}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.soundcloud.android/com.soundcloud.android.main.LauncherActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.aspiro.tidal/com.aspiro.tidal.ui.activities.LoginActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{deezer.android.app/deezer.android.app.activity.LauncherActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.amazon.mp3/com.amazon.mp3.ui.activity.LaunchActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.iheartradio.android/com.iheartradio.android.activities.SplashActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{code.name.monkey.retromusic/code.name.monkey.retromusic.activities.MainActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.maxmpz.audioplayer/com.maxmpz.audioplayer.StartupActivity}" drawable="ios26_lg_music" />
+
+    <!-- Reading / Education -->
+    <item component="ComponentInfo{com.amazon.kindle/com.amazon.kindle.otter.StartupActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.google.android.apps.books/com.google.android.apps.books.app.BooksActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.audible.application/com.audible.application.MainActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.duolingo/com.duolingo.app.splash.SplashActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{org.khanacademy.android/org.khanacademy.android.ui.library.NavigationActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.google.android.apps.classroom/com.google.android.apps.classroom.ClassListActivity}" drawable="ios26_lg_google_classroom" />
+
+    <!-- Productivity / Notes apps -->
+    <item component="ComponentInfo{notion.id/notion.id.MainActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{md.obsidian/md.obsidian.MainActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.todoist/com.todoist.activity.HomeActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.evernote/com.evernote.ui.HomeActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{net.cozic.joplin/net.cozic.joplin.MainActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.automattic.simplenote/com.automattic.simplenote.NotesActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.standardnotes/com.standardnotes.MainActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{org.standardnotes/org.standardnotes.MainActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.bear.notes/com.bear.notes.MainActivity}" drawable="ios26_lg_notes" />
+
+    <!-- VPN / Security -->
+    <item component="ComponentInfo{com.nordvpn.android/com.nordvpn.android.app.main.MainActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.expressvpn.vpn/com.expressvpn.vpn.activities.splash.SplashActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.wireguard.android/com.wireguard.android.activity.MainActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{org.torproject.torbrowser/org.torproject.torbrowser.BrowserApp}" drawable="ios26_lg_safari" />
+    <item component="ComponentInfo{org.torproject.android/org.torproject.android.OrbotMainActivity}" drawable="ios26_lg_settings" />
+
+    <!-- Travel / Navigation -->
+    <item component="ComponentInfo{com.lyft.android/com.lyft.android.ui.MainLauncherActivity}" drawable="ios26_lg_uber" />
+    <item component="ComponentInfo{com.waze/com.waze.MainActivity}" drawable="ios26_lg_google_maps" />
+    <item component="ComponentInfo{com.citymapper.app.release/com.citymapper.app.CityMapperActivity}" drawable="ios26_lg_google_maps" />
+    <item component="ComponentInfo{me.couplebits.organicmaps/me.couplebits.organicmaps.DownloadResourcesLegacyActivity}" drawable="ios26_lg_google_maps" />
+    <item component="ComponentInfo{com.mapswithme.maps.pro/com.mapswithme.maps.pro.DownloadResourcesLegacyActivity}" drawable="ios26_lg_google_maps" />
+
+    <!-- Fitness -->
+    <item component="ComponentInfo{com.myfitnesspal.android/com.myfitnesspal.android.login.LoginActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.fitbit.FitbitMobile/com.fitbit.FitbitMobile.ui.app_entry.splash.SplashActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.nike.plusgps/com.nike.plusgps.MainActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.strava/com.strava.app.ui.splash.SplashActivity}" drawable="ios26_lg_strava" />
+    <item component="ComponentInfo{com.garmin.android.apps.connectmobile/com.garmin.android.apps.connectmobile.startup.SplashActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.runkeeper.android/com.fitnesskeeper.runkeeper.ui.main.splash.SplashActivity}" drawable="ios26_lg_health" />
+
+    <!-- Alt app stores -->
+    <item component="ComponentInfo{com.aurora.store/com.aurora.store.view.ui.splash.SplashActivity}" drawable="ios26_lg_appstore" />
+    <item component="ComponentInfo{io.github.droidify/io.github.droidify.MainActivity}" drawable="ios26_lg_appstore" />
+    <item component="ComponentInfo{org.fdroid.fdroid/org.fdroid.fdroid.views.main.MainActivity}" drawable="ios26_lg_appstore" />
+    <item component="ComponentInfo{com.apkpure.aegon/com.apkpure.aegon.main.activity.MainTabActivity}" drawable="ios26_lg_appstore" />
+
+    <!-- Social (additional) -->
+    <item component="ComponentInfo{xyz.blueskyweb.app/xyz.blueskyweb.app.MainActivity}" drawable="ios26_lg_twitter" />
+    <item component="ComponentInfo{com.bereal.ft/com.bereal.ft.home.HomeActivity}" drawable="ios26_lg_instagram" />
+    <item component="ComponentInfo{org.joinmastodon.android/org.joinmastodon.android.MainActivity}" drawable="ios26_lg_twitter" />
+    <item component="ComponentInfo{com.imo.android.imoim/com.imo.android.imoim.MainActivity}" drawable="ios26_lg_whatsapp" />
+    <item component="ComponentInfo{network.loki.messenger/network.loki.messenger.home.HomeActivity}" drawable="ios26_lg_whatsapp" />
+    <item component="ComponentInfo{com.jerboa/com.jerboa.MainActivity}" drawable="ios26_lg_reddit" />
+    <item component="ComponentInfo{com.jerboa.debug/com.jerboa.MainActivity}" drawable="ios26_lg_reddit" />
+
+    <!-- Podcasts / Audio -->
+    <item component="ComponentInfo{com.google.android.apps.podcasts/com.google.android.apps.podcasts.app.LauncherActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.bambuna.podcastaddict/com.bambuna.podcastaddict.activity.MainActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{fm.castbox.audiobook.radio.podcast/fm.castbox.audiobook.radio.podcast.PlayerActivity}" drawable="ios26_lg_music" />
+
+    <!-- Password Managers (additional entries) -->
+    <item component="ComponentInfo{keepass2android.keepass2android/keepass2android.keepass2android.KeePass}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.kunzisoft.keepass.free/com.kunzisoft.keepass.activities.GroupActivity}" drawable="ios26_lg_settings" />
+
+    <!-- Email (additional) -->
+    <item component="ComponentInfo{com.fastmail.app/com.fastmail.app.MainActivity}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{eu.faircode.email/eu.faircode.email.ActivityMain}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{me.proton.android.mail/me.proton.android.mail.MainActivity}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.MessageList}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{me.mEmail.client/me.mEmail.client.activity.MessageList}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{org.kman.AquaMail/org.kman.AquaMail.ui.AccountFoldersActivity}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{com.yahoo.mobile.client.android.mail/com.yahoo.mobile.client.android.mail.app.YahooMailActivity}" drawable="ios26_lg_mail" />
+
+    <!-- Weather (additional) -->
+    <item component="ComponentInfo{org.breezyweather/org.breezyweather.main.MainActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{org.climasense/org.climasense.main.MainActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{de.metacrew.livewetter/de.metacrew.livewetter.MainActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{fr.hbis.weather/fr.hbis.weather.MainActivity}" drawable="ios26_lg_weather" />
+    <item component="ComponentInfo{com.weather.forecast.channel.daily.radar/com.weather.forecast.channel.daily.radar.activities.SplashActivity}" drawable="ios26_lg_weather" />
+
+    <!-- File managers (additional) -->
+    <item component="ComponentInfo{com.lonelycatgames.Xplore/com.lonelycatgames.Xplore.Xplore}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{me.zhanghai.android.files/me.zhanghai.android.files.filelist.FileListActivity}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.amaze.filemanager/com.amaze.filemanager.ui.activities.MainActivity}" drawable="ios26_lg_files" />
+
+    <!-- Cloud storage -->
+    <item component="ComponentInfo{com.dropbox.android/com.dropbox.android.activity.DbxMainActivity}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.box.android/com.box.android.activities.SplashActivity}" drawable="ios26_lg_files" />
+
+    <!-- Calendar (additional) -->
+    <item component="ComponentInfo{ws.xsoh.etar/ws.xsoh.etar.AllInOneActivity}" drawable="ios26_lg_calendar" />
+    <item component="ComponentInfo{com.appgenix.bizcal/com.appgenix.bizcal.MainActivity}" drawable="ios26_lg_calendar" />
+
+    <!-- Launchers -->
+    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaLauncher}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.microsoft.launcher/com.microsoft.launcher.Launcher}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.niagara.launcher/com.niagara.launcher.settings.SettingsActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{app.lawnchair/app.lawnchair.LawnchairLauncher}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{ch.deletescape.lawnchair.ci/ch.deletescape.lawnchair.ci.LawnchairLauncher}" drawable="ios26_lg_settings" />
+
+    <!-- Misc popular -->
+    <item component="ComponentInfo{com.termux/com.termux.app.TermuxActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.noodleofdeath.noteful/com.noodleofdeath.noteful.MainActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{md.samir65436.simple_notes/md.samir65436.simple_notes.activities.MainActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{ginlemon.iconpackstudio/ginlemon.iconpackstudio.activity.LauncherActivity}" drawable="ios26_lg_appstore" />
+    <item component="ComponentInfo{com.guardian/com.guardian.features.home.HomeActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.google.ar.lens/com.google.vr.apps.ornament.app.MainActivity}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{com.google.android.apps.recorder/com.google.android.apps.recorder.activity.RecorderActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.SoundRecorder}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.samsung.android.app.soundrecorder/com.samsung.android.app.soundrecorder.RecordActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.whoop.android/com.whoop.android.activity.main.MainActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.visa.app.android/com.visa.app.android.MainActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.barclays.android.barclaysmobilebanking/com.barclays.android.barclaysmobilebanking.LoginActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.robinhood.android/com.robinhood.android.feature.login.LoginAndroidActivity}" drawable="ios26_lg_robinhood" />
+
+    <!-- ==================== AI ASSISTANTS ==================== -->
+    <item component="ComponentInfo{com.openai.chatgpt/com.openai.voice.assistant.AssistantActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.anthropic.claude/com.anthropic.claude.MainActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.perplexity.ask/com.perplexity.ask.MainActivity}" drawable="ios26_lg_safari" />
+
+    <!-- ==================== PRODUCTIVITY ==================== -->
+    <item component="ComponentInfo{com.notion.android/com.notion.android.NotionMainActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.canva.editor/com.canva.app.editor.splash.SplashActivity}" drawable="ios26_lg_photos" />
+    <item component="ComponentInfo{com.adobe.reader/com.adobe.reader.AdobeReader}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.adobe.lrmobile/com.adobe.lrmobile.MainActivity}" drawable="ios26_lg_photos" />
+    <item component="ComponentInfo{com.adobe.scan/com.adobe.scan.android.SplashScreenActivity}" drawable="ios26_lg_camera" />
+    <item component="ComponentInfo{com.medium.reader/com.medium.android.donkey.start.SplashActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.feedly.android.app/com.devhd.feedly.LaunchActivity}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.pocket.ui/com.ideashower.readitlater.activity.Main}" drawable="ios26_lg_notes" />
+    <item component="ComponentInfo{com.quora.android/com.quora.android.LauncherActivity}" drawable="ios26_lg_safari" />
+
+    <!-- ==================== STREAMING / ENTERTAINMENT ==================== -->
+    <item component="ComponentInfo{com.amazon.avod/com.amazon.avod.LauncherActivity}" drawable="ios26_lg_amazon" />
+    <item component="ComponentInfo{com.paramount.paramount/com.cbs.ott.android.launch.SplashActivity}" drawable="ios26_lg_facetime" />
+    <item component="ComponentInfo{tv.pluto.android/tv.pluto.android.activities.SplashActivity}" drawable="ios26_lg_facetime" />
+    <item component="ComponentInfo{com.funimation.funimationapp/com.funimation.funimationapp.ui.splash.SplashActivity}" drawable="ios26_lg_facetime" />
+    <item component="ComponentInfo{com.deezer.android/com.deezer.android.ui.activity.LauncherActivity}" drawable="ios26_lg_music" />
+    <item component="ComponentInfo{com.zhiliaoapp.musically.go/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="ios26_lg_camera" />
+
+    <!-- ==================== DATING ==================== -->
+    <item component="ComponentInfo{com.tinder/com.tinder.activities.LoginActivity}" drawable="ios26_lg_messages" />
+    <item component="ComponentInfo{com.bumble.app/com.bumble.app.LaunchActivity}" drawable="ios26_lg_messages" />
+    <item component="ComponentInfo{com.badoo.mobile/com.badoo.mobile.SplashScreenActivity}" drawable="ios26_lg_messages" />
+
+    <!-- ==================== SIGNAL / SECURE MESSAGING ==================== -->
+    <item component="ComponentInfo{org.signal.android/org.thoughtcrime.securesms.RoutingActivity}" drawable="ios26_lg_messages" />
+    <item component="ComponentInfo{org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivity}" drawable="ios26_lg_messages" />
+
+    <!-- ==================== FITNESS / HEALTH ==================== -->
+    <item component="ComponentInfo{com.nike.omega/com.nike.ntc.activity.MainFeedActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.underarmour.myfitnesspal/com.myfitnesspal.android.ui.LaunchActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.peloton.peloton/com.peloton.android.splash.SplashActivity}" drawable="ios26_lg_health" />
+
+    <!-- ==================== PRIVACY / VPN ==================== -->
+    <item component="ComponentInfo{me.proton.mail/ch.protonmail.android.activities.SplashActivity}" drawable="ios26_lg_mail" />
+    <item component="ComponentInfo{me.proton.pass/me.proton.pass.MainActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.protonvpn.android/com.protonvpn.android.ui.main.MobileMainActivity}" drawable="ios26_lg_settings" />
+
+    <!-- ==================== FINANCE / CRYPTO ==================== -->
+    <item component="ComponentInfo{com.binance.dev/com.binance.dev.ui.splash.SplashActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.coinbase.android/com.coinbase.android.SplashActivity}" drawable="ios26_lg_wallet" />
+    <item component="ComponentInfo{com.squareup.cash/com.squareup.cash.ui.MainActivity}" drawable="ios26_lg_wallet" />
+
+    <!-- ==================== SAMSUNG SYSTEM APPS ==================== -->
+    <item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.MainTabActivity}" drawable="ios26_lg_files" />
+    <item component="ComponentInfo{com.sec.android.app.clock/com.sec.android.app.clock.ClockPackage}" drawable="ios26_lg_clock" />
+    <item component="ComponentInfo{com.sec.android.calendar/com.android.calendar.AllInOneActivity}" drawable="ios26_lg_calendar" />
+    <item component="ComponentInfo{com.samsung.android.sm/com.samsung.android.sm.ui.dashboard.SmartManagerDashBoardActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.samsung.android.lool/com.samsung.android.sm.battery.ui.BatterySettingActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.samsung.android.forest/com.samsung.android.forest.main.MainActivity}" drawable="ios26_lg_health" />
+    <item component="ComponentInfo{com.samsung.android.app.routines/com.samsung.android.app.routines.main.LauncherActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.samsung.android.app.sreminder/com.samsung.android.app.sreminder.main.MainActivity}" drawable="ios26_lg_notes" />
+
+    <!-- ==================== OEM LAUNCHERS ==================== -->
+    <item component="ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.lge.launcher3/com.lge.launcher3.LauncherExtension}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{net.oneplus.launcher/net.oneplus.launcher.Launcher}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.mi.android.globallauncher/com.miui.home.launcher.Launcher}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.oppo.launcher/com.oppo.launcher.Launcher}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.coloros.launcher/com.oppo.launcher.Launcher}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.vivo.launcher/com.vivo.launcher.Launcher}" drawable="ios26_lg_settings" />
+
+    <!-- ==================== GOOGLE APPS (additional) ==================== -->
+    <item component="ComponentInfo{com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.google.android.apps.subscriptions.red/com.google.android.apps.subscriptions.red.LaunchActivity}" drawable="ios26_lg_google_one" />
+    <item component="ComponentInfo{com.google.android.apps.cloudconsole/com.google.android.apps.cloudconsole.CloudConsoleActivity}" drawable="ios26_lg_settings" />
+
+    <!-- ==================== MOTOROLA SYSTEM ==================== -->
+    <item component="ComponentInfo{com.motorola.ccc/com.motorola.ccc.ota.ui.UpgradeActivity}" drawable="ios26_lg_settings" />
+    <item component="ComponentInfo{com.motorola.motocare/com.motorola.motocare.internal.HomeActivity}" drawable="ios26_lg_settings" />
+
+    <!-- ==================== SHOPPING ==================== -->
+    <item component="ComponentInfo{com.shopify.mobile/com.shopify.mobile.MainActivity}" drawable="ios26_lg_appstore" />
+
+</resources>
