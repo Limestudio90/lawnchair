@@ -64,7 +64,12 @@ class PreferenceViewModel(private val app: Application) :
             packageName = "",
             icon = lawnchairIcon,
         )
-        val withSystemIcons = listOf(defaultIconPack) + iconPacks.sortedBy { it.name }
+        val builtInIconPack = IconPackInfo(
+            name = "AndrIos Liquid Glass",
+            packageName = app.packageName,
+            icon = lawnchairIcon,
+        )
+        val withSystemIcons = listOf(builtInIconPack, defaultIconPack) + iconPacks.sortedBy { it.name }
         emit(withSystemIcons)
     }
         .flowOn(Dispatchers.Default)
