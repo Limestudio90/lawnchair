@@ -52,7 +52,7 @@ class VerticalSwipeTouchController(
                 .onEach { overrideSwipeUp = it != prefs.swipeUpGestureHandler.defaultValue && it !is GestureHandlerConfig.OpenAppDrawer }
                 .launchIn(this)
             prefs.swipeDownGestureHandler.get()
-                .onEach { overrideSwipeDown = it != prefs.swipeDownGestureHandler.defaultValue && it !is GestureHandlerConfig.OpenNotifications }
+                .onEach { overrideSwipeDown = it !is GestureHandlerConfig.OpenNotifications }
                 .launchIn(this)
             // Override when a custom gesture handler is configured, as launcher does not handle these by default
             prefs.twoFingerSwipeUpGestureHandler.get()
